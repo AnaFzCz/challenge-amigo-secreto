@@ -8,8 +8,7 @@ function adicionarAmigo() {
     } else {
         let verificaAmigo = nomeAmigo;
         if (listaAmigosJava.includes(verificaAmigo)) {
-            alert('Ya se encuentra en la lista')
-            limparCampo();
+            alert('Ya se encuentra en la lsita')
         }
         else {
             listaAmigosJava.push(nomeAmigo);

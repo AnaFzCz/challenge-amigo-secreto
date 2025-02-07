@@ -6,17 +6,11 @@ function adicionarAmigo() {
     if (nomeAmigo == '') {
         alert('Debes ingresa el nombre de un amig@');
     } else {
-        let verificaAmigo = nomeAmigo;
-        if (listaAmigosJava.includes(verificaAmigo)) {
-            alert('Ya se encuentra en la lista')
-            limparCampo();
-        }
-        else {
-            listaAmigosJava.push(nomeAmigo);
-            console.log(listaAmigosJava);
-            muestraNomeAmigos();
-            limparCampo();
-        }
+
+        listaAmigosJava.push(nomeAmigo);
+        console.log(listaAmigosJava);
+        muestraNomeAmigos();
+        limparCampo();
     }
 
 }

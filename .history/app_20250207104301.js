@@ -6,17 +6,11 @@ function adicionarAmigo() {
     if (nomeAmigo == '') {
         alert('Debes ingresa el nombre de un amig@');
     } else {
-        let verificaAmigo = nomeAmigo;
-        if (listaAmigosJava.includes(verificaAmigo)) {
-            alert('Ya se encuentra en la lista')
-            limparCampo();
-        }
-        else {
-            listaAmigosJava.push(nomeAmigo);
-            console.log(listaAmigosJava);
-            muestraNomeAmigos();
-            limparCampo();
-        }
+
+        listaAmigosJava.push(nomeAmigo);
+        console.log(listaAmigosJava);
+        muestraNomeAmigos();
+        limparCampo();
     }
 
 }
@@ -36,9 +30,11 @@ function sortearAmigo() {
 
         let nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
         let datoFinal = document.getElementById('resultado');
-        datoFinal.innerHTML = (`Tu amig@ secreto es :${nombreAleatorio}`);
-        //console.log(datoFinal);
-    }
+        datoFinal.innerHTML = {`Tu amigo secreto es :`nombreAleatorio
+    };
+};
+    //console.log(datoFinal);
+}
 }
 
 
