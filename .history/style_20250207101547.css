@@ -135,6 +135,14 @@ ul {
     text-transform: uppercase;
 }
 
+li {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
 
 .result-list {
     margin-top: 15px;

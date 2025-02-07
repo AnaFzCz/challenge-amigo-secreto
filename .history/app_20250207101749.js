@@ -1,5 +1,5 @@
 let listaAmigosJava = [];
-
+let nombreAleatorio;
 function adicionarAmigo() {
 
     let nomeAmigo = document.getElementById('amigo').value;
@@ -28,10 +28,11 @@ function sortearAmigo() {
         alert('La lista está vacía, ingresa datos');
     } else {
 
-        let nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
-        let datoFinal = document.getElementById('resultado');
-        datoFinal.innerHTML = nombreAleatorio;
-        //console.log(datoFinal);
+        nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
+        //console.log(nombreAleatorio);
+        let verDato = document.getElementById('resultado');
+        verDato = nombreAleatorio;
+        alert(nombreAleatorio);
     }
 }
 
