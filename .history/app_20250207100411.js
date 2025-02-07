@@ -30,7 +30,7 @@ function sortearAmigo() {
 
         nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
         //console.log(nombreAleatorio);
-        document.getElementById("resultado").value = nombreAleatorio;
+        document.getElementById('resultado').value = nombreAleatorio;
         alert(nombreAleatorio);
     }
 }

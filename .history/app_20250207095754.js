@@ -24,15 +24,15 @@ function muestraNomeAmigos() {
 
 function sortearAmigo() {
 
-    if (listaAmigosJava.length == 0) {
+    if (listaAmigosJava.length === 0) {
         alert('La lista está vacía, ingresa datos');
-    } else {
-
-        nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
-        //console.log(nombreAleatorio);
-        document.getElementById("resultado").value = nombreAleatorio;
-        alert(nombreAleatorio);
+        return;
     }
+
+    nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
+    // console.log(nombreAleatorio);
+    document.getElementById('resultado').value = nombreAleatorio;
+    //console.log(nombreAleatorio);
 }
 
 

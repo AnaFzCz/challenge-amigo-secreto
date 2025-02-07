@@ -1,5 +1,5 @@
 let listaAmigosJava = [];
-let nombreAleatorio;
+let listaHTML = [];
 function adicionarAmigo() {
 
     let nomeAmigo = document.getElementById('amigo').value;
@@ -17,24 +17,17 @@ function adicionarAmigo() {
 
 function muestraNomeAmigos() {
     let nombreAmigoLista = document.querySelector('ul');
-    let listaHTML = listaAmigosJava.map(amigo => `<li>${amigo}</li>`).join('');
+    listaHTML = listaAmigosJava.map(amigo => `<li>${amigo}</li>`).join('');
     nombreAmigoLista.innerHTML = listaHTML;
     // console.log(listaHTML);
 }
 
 function sortearAmigo() {
 
-    if (listaAmigosJava.length == 0) {
-        alert('La lista está vacía, ingresa datos');
-    } else {
+    let nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
+    console.log(nombreAleatorio);
 
-        nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
-        //console.log(nombreAleatorio);
-        document.getElementById("resultado").value = nombreAleatorio;
-        alert(nombreAleatorio);
-    }
 }
-
 
 function limparCampo() {
     let nomeAmigo = document.querySelector('input');

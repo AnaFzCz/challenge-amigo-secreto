@@ -37,7 +37,7 @@ function sortearAmigo() {
 
 
 function limparCampo() {
-    let nomeAmigo = document.querySelector('input');
+    let nomeAmigo = document.querySelector('amigo');
     nomeAmigo.value = '';
 }
 

@@ -29,9 +29,9 @@ function sortearAmigo() {
     } else {
 
         nombreAleatorio = listaAmigosJava[Math.floor(Math.random() * listaAmigosJava.length)];
+        // console.log(nombreAleatorio);
+        document.getElementById('resultado').value = nombreAleatorio;
         //console.log(nombreAleatorio);
-        document.getElementById("resultado").value = nombreAleatorio;
-        alert(nombreAleatorio);
     }
 }
 
