@@ -6,7 +6,7 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 
 Un juego donde causa intriga y sorpresa encontrar un amig@.
-![juegoNSecreto](https://raw.githubusercontent.com/AnaFzCz/JuegoDeNumeroSecreto/main/juegoNSecreto.png)
+![ChallengueAmigoSecreto](https://raw.githubusercontent.com/AnaFzCz/challengue-amigo-secreto/main/ChallengueAmigoSecreto.png)
 
   
 * [Status do Projeto](#status-do-Projeto)
