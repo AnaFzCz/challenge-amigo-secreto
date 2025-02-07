@@ -15,7 +15,7 @@ Un juego donde causa intriga y sorpresa encontrar un amig@.
 - `Funcionalidade 2`: Si por error tratamos de ingresar un campo vacio, este nos alerta para ingresar el nombre asignado
 - `Funcionalidade 3`: Muestra el nombre del amigo aleatoriamente
 
-## Acesso ao Projeto 🚪
+## [Acesso ao Projeto](#acesso) 🚪
 
   Ingresa al siguiente link: https://amigo-indol.vercel.app/
 
